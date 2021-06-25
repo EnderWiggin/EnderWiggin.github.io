@@ -17,9 +17,8 @@ include http://game.havenandhearth.com/java/jogl/current/jogl.hl
 title "Haven & Hearth Ender beta"
 splash-image splash.gif
 
-heap-size 1024
+heap-size 2048
 
-property haven.errorurl 
 property haven.defserv game.havenandhearth.com
 property haven.resurl https://game.havenandhearth.com/res/
 property haven.screenurl http://game.havenandhearth.com/mt/ss
