@@ -1,0 +1,29 @@
+require 1.0
+
+validate always
+
+class-path hafen.jar
+class-path client-res.jar
+
+main-class haven.MainFrame
+
+validate tls-cert:key:rsa:99118FA7C13D9686021FFDB74F8FFE77CA5EB7D356A8D31BB907A31AFAE04D46
+
+class-path https://game.havenandhearth.com/java/hafen-res.jar
+class-path https://game.havenandhearth.com/java/builtin-res.jar
+
+include https://game.havenandhearth.com/java/jogl/current/jogl.hl
+
+title "Haven & Hearth Ender beta"
+splash-image splash.gif
+
+heap-size 2048
+
+property haven.defserv game.havenandhearth.com
+property haven.resurl https://game.havenandhearth.com/res/
+property haven.screenurl http://game.havenandhearth.com/mt/ss
+property haven.cachebase http://game.havenandhearth.com/render/
+property haven.mapbase http://game.havenandhearth.com/java/
+property haven.fullscreen off
+
+property sun.java2d.uiScale.enabled false
