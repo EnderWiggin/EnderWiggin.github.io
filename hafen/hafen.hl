@@ -1,6 +1,8 @@
 require 1.0
 
-validate always
+command-file start-hafen.bat
+
+validate tls-cert:key:rsa:99E6C96B2904AE34AAD7E5F1B775ED34D1ED750DF1A7799B1D9EC00730C4BA56
 
 class-path hafen.jar
 class-path client-res.jar
@@ -13,9 +15,6 @@ class-path https://game.havenandhearth.com/java/hafen-res.jar
 class-path https://game.havenandhearth.com/java/builtin-res.jar
 
 include https://game.havenandhearth.com/java/jogl/current/jogl.hl
-
-title "Haven & Hearth Ender beta"
-splash-image splash.gif
 
 heap-size 2048
 
