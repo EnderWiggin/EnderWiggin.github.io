@@ -22,7 +22,6 @@ property haven.defserv game.havenandhearth.com
 property haven.resurl https://game.havenandhearth.com/res/
 property haven.screenurl http://game.havenandhearth.com/mt/ss
 property haven.cachebase http://game.havenandhearth.com/render/
-property haven.mapbase http://game.havenandhearth.com/java/
 property haven.fullscreen off
 
 property sun.java2d.uiScale.enabled false
