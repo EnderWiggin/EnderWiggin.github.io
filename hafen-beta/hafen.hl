@@ -2,7 +2,7 @@ require 1.0
 
 command-file start-hafen-beta.bat
 
-validate tls-cert:key:rsa:99E6C96B2904AE34AAD7E5F1B775ED34D1ED750DF1A7799B1D9EC00730C4BA56
+validate tls-cert:key:rsa:BE50EC434C6FD13BDCD2C445EA0BC2E574DA0DB99D02C992840AD234495FB3D3
 
 class-path hafen.jar
 class-path client-res.jar
