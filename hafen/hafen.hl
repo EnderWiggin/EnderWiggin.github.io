@@ -24,5 +24,6 @@ property haven.screenurl http://game.havenandhearth.com/mt/ss
 property haven.cachebase http://game.havenandhearth.com/render/
 property haven.mapbase http://game.havenandhearth.com/java/
 property haven.fullscreen off
+property config.client-id ender
 
 include https://game.havenandhearth.com/java/launcher-hacks.hl
