@@ -1,0 +1,23 @@
+require 1.0
+
+command-file start-hafen-beta.bat
+
+class-path hafen.jar
+class-path client-res.jar
+
+main-class haven.MainFrame
+
+validate tls-cert:key:rsa:99118FA7C13D9686021FFDB74F8FFE77CA5EB7D356A8D31BB907A31AFAE04D46
+
+class-path https://game.havenandhearth.com/java/hafen-res.jar
+class-path https://game.havenandhearth.com/java/builtin-res.jar
+
+include https://game.havenandhearth.com/java/jogl/current/jogl.hl
+
+heap-size 2048
+
+include https://game.havenandhearth.com/java/hafen-props.hl
+property haven.errorurl stderr
+property config.client-id ender-beta
+
+include https://game.havenandhearth.com/java/launcher-hacks.hl
