@@ -12,7 +12,8 @@ validate tls-cert:key:rsa:99118FA7C13D9686021FFDB74F8FFE77CA5EB7D356A8D31BB907A3
 class-path https://game.havenandhearth.com/java/hafen-res.jar
 class-path https://game.havenandhearth.com/java/builtin-res.jar
 
-include https://game.havenandhearth.com/java/jogl/current/jogl.hl
+include https://game.havenandhearth.com/java/jogl/2.5.0/jogl.hl
+include https://game.havenandhearth.com/java/steamworks/current/steamworks.hl
 
 heap-size 2048
 
