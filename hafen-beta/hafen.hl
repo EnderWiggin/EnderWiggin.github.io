@@ -18,6 +18,6 @@ heap-size 2048
 
 include https://game.havenandhearth.com/java/hafen-props.hl
 property haven.errorurl stderr
-property config.client-id ender-beta
+property ender.client-type beta
 
 include https://game.havenandhearth.com/java/launcher-hacks.hl

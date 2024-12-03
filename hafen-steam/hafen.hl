@@ -22,6 +22,7 @@ property haven.authmech steam
 property haven.steamsvc https://www.havenandhearth.com/portal/steam/
 property haven.errorurl stderr
 property config.client-id ender-steam
+property ender.client-type steam
 property config.homedir hashdir
 
 include https://game.havenandhearth.com/java/launcher-hacks.hl
